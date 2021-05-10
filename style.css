@@ -1,0 +1,50 @@
+
+		h1 {
+			text-align: center;
+			color: #26d952;
+			transform: scale(1.5);
+
+		}
+		h2 {
+			color: #26d952;
+		}
+		nav {
+			text-align: center;
+			transform: scale(1.5);
+
+		}
+		.cargando{
+			display: block;
+			margin: auto;
+			transform: scale(3);
+		}
+
+		.nombrePokemon{
+			transform: scale(1.5);
+			color: #0d49f2;
+
+		}
+
+		.habPokemon{
+			transform: scale(1.2);
+
+		}		
+
+		.seleccionarPokemon{
+			transition: transform 1s;
+			padding-top: 20px;
+		}
+
+		.seleccionarPokemon:hover{
+			transform: scale(1.5);
+			background: #26d952;
+			/*border-radius: 5px;*/
+			-moz-border-radius: 7px;
+			-webkit-border-radius: 7px;
+		}
+			
+		.grid-fluid{
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+			text-align: center;
+			}
